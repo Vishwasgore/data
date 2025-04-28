@@ -3,5 +3,10 @@ To run the calculator.scala follow the steps
 1.after writing the program save the 'calculator.scala' to the 'home' directory
 2.open terminal
 3.on scala shell write the following commands
-4.scala>:load calculator.scala
-5.scala>calculator.main(Array.empty[String])
+4.source ~/.profile
+5.start-master.sh
+6.source ~/.bashrc
+7.spark-shell
+# Command to run the file
+4.:load calculator.scala
+5.calculator.main(Array.empty[String])  # calculator is a object name
